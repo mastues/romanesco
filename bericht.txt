@@ -1,0 +1,29 @@
+Martina Stüssi
+Valentina Vogel
+
+Stolpersteine:
+Code verstehen, den wir nicht selbst verfasst haben.
+csv richtig einlesen (quotchar = '"' beachten)
+
+Datenset:
+100'000 Happy moments, der letzten 24 Studen.
+https://github.com/rit-public/HappyDB
+
+Hilfestellungen:
+
+
+
+
+Wir haben damit begonnen einfach einmal zu trainieren um ein Gefühl zu bekommen.
+
+Wie Prozess abbrechen, wenn mit nohup gestartet?
+
+Vor der git nutzung etwas mehr nachdenken, wäre es nicht angenehmer gewesen wenn eine von uns 
+romanesco geforked hätte und wir dann zwei Branches erstellt hätten. > besseres Zusammenarbeiten
+hätte resultieren können.
+
+Preprocessing hat einen einfluss auf die Perplexität.
+
+Was ist Perplexität genau.
+
+Tensorboard verstehen scheint eine eigene Wissenschaft.
