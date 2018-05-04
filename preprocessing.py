@@ -19,7 +19,7 @@ for row in spamreader:
         if row[0].isdigit():
             try:
                 if int(row[6]) == 1:
-                    print(row[6])
+                    #print(row[6])
                     sentence = re.sub(r'^\s*\"?', "", row[4], flags=re.UNICODE)
                     sentence_clean = re.sub(r'\"?\s*$', "", sentence, flags=re.UNICODE)
                     #if len(sentence_clean) < 12:

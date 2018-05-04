@@ -1,0 +1,11 @@
+log
+15 epochen
+original romanesco
+2018-05-04 19:40:38,048 - INFO - Perplexity on training data after epoch 15: 27.15
+Perplexity: 42.15
+
+
+
+15 epochen
+original romanesco
+anderes preprocessing
