@@ -1,0 +1,335 @@
+nohup: ignoring input
+2018-05-05 10:37:58,035 - WARNING - From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+2018-05-05 10:37:59.488292: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-05 10:37:59.674911: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-05 10:37:59.675648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:08.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-05 10:37:59.675668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-05-05 10:37:59.964107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-05-05 10:37:59.964165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-05-05 10:37:59.964174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-05-05 10:37:59.964586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10764 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:00:08.0, compute capability: 3.7)
+2018-05-05 10:38:35,098 - DEBUG - Epoch=1, iteration=100
+2018-05-05 10:39:08,436 - DEBUG - Epoch=1, iteration=200
+2018-05-05 10:39:41,823 - DEBUG - Epoch=1, iteration=300
+2018-05-05 10:40:15,215 - DEBUG - Epoch=1, iteration=400
+2018-05-05 10:40:48,592 - DEBUG - Epoch=1, iteration=500
+2018-05-05 10:41:21,981 - DEBUG - Epoch=1, iteration=600
+2018-05-05 10:41:55,409 - DEBUG - Epoch=1, iteration=700
+2018-05-05 10:42:28,793 - DEBUG - Epoch=1, iteration=800
+2018-05-05 10:43:02,185 - DEBUG - Epoch=1, iteration=900
+2018-05-05 10:43:35,540 - DEBUG - Epoch=1, iteration=1000
+2018-05-05 10:44:08,913 - DEBUG - Epoch=1, iteration=1100
+2018-05-05 10:44:42,301 - DEBUG - Epoch=1, iteration=1200
+2018-05-05 10:45:15,644 - DEBUG - Epoch=1, iteration=1300
+2018-05-05 10:45:49,024 - DEBUG - Epoch=1, iteration=1400
+2018-05-05 10:46:22,422 - DEBUG - Epoch=1, iteration=1500
+2018-05-05 10:46:48,776 - INFO - Perplexity on training data after epoch 1: 249.49
+2018-05-05 10:47:27,738 - DEBUG - Epoch=2, iteration=100
+2018-05-05 10:48:01,132 - DEBUG - Epoch=2, iteration=200
+2018-05-05 10:48:34,533 - DEBUG - Epoch=2, iteration=300
+2018-05-05 10:49:07,903 - DEBUG - Epoch=2, iteration=400
+2018-05-05 10:49:41,291 - DEBUG - Epoch=2, iteration=500
+2018-05-05 10:50:14,681 - DEBUG - Epoch=2, iteration=600
+2018-05-05 10:50:48,107 - DEBUG - Epoch=2, iteration=700
+2018-05-05 10:51:21,504 - DEBUG - Epoch=2, iteration=800
+2018-05-05 10:51:54,893 - DEBUG - Epoch=2, iteration=900
+2018-05-05 10:52:28,292 - DEBUG - Epoch=2, iteration=1000
+2018-05-05 10:53:01,737 - DEBUG - Epoch=2, iteration=1100
+2018-05-05 10:53:35,170 - DEBUG - Epoch=2, iteration=1200
+2018-05-05 10:54:08,589 - DEBUG - Epoch=2, iteration=1300
+2018-05-05 10:54:41,989 - DEBUG - Epoch=2, iteration=1400
+2018-05-05 10:55:15,385 - DEBUG - Epoch=2, iteration=1500
+2018-05-05 10:55:41,758 - INFO - Perplexity on training data after epoch 2: 99.10
+2018-05-05 10:56:20,370 - DEBUG - Epoch=3, iteration=100
+2018-05-05 10:56:53,782 - DEBUG - Epoch=3, iteration=200
+2018-05-05 10:57:27,170 - DEBUG - Epoch=3, iteration=300
+2018-05-05 10:58:00,489 - DEBUG - Epoch=3, iteration=400
+2018-05-05 10:58:33,851 - DEBUG - Epoch=3, iteration=500
+2018-05-05 10:59:07,269 - DEBUG - Epoch=3, iteration=600
+2018-05-05 10:59:40,630 - DEBUG - Epoch=3, iteration=700
+2018-05-05 11:00:14,056 - DEBUG - Epoch=3, iteration=800
+2018-05-05 11:00:47,471 - DEBUG - Epoch=3, iteration=900
+2018-05-05 11:01:20,861 - DEBUG - Epoch=3, iteration=1000
+2018-05-05 11:01:54,302 - DEBUG - Epoch=3, iteration=1100
+2018-05-05 11:02:27,710 - DEBUG - Epoch=3, iteration=1200
+2018-05-05 11:03:01,078 - DEBUG - Epoch=3, iteration=1300
+2018-05-05 11:03:34,487 - DEBUG - Epoch=3, iteration=1400
+2018-05-05 11:04:07,897 - DEBUG - Epoch=3, iteration=1500
+2018-05-05 11:04:34,316 - INFO - Perplexity on training data after epoch 3: 73.55
+2018-05-05 11:05:13,037 - DEBUG - Epoch=4, iteration=100
+2018-05-05 11:05:46,447 - DEBUG - Epoch=4, iteration=200
+2018-05-05 11:06:19,877 - DEBUG - Epoch=4, iteration=300
+2018-05-05 11:06:53,316 - DEBUG - Epoch=4, iteration=400
+2018-05-05 11:07:26,701 - DEBUG - Epoch=4, iteration=500
+2018-05-05 11:08:00,097 - DEBUG - Epoch=4, iteration=600
+2018-05-05 11:08:33,466 - DEBUG - Epoch=4, iteration=700
+2018-05-05 11:09:06,847 - DEBUG - Epoch=4, iteration=800
+2018-05-05 11:09:40,258 - DEBUG - Epoch=4, iteration=900
+2018-05-05 11:10:13,662 - DEBUG - Epoch=4, iteration=1000
+2018-05-05 11:10:47,066 - DEBUG - Epoch=4, iteration=1100
+2018-05-05 11:11:20,457 - DEBUG - Epoch=4, iteration=1200
+2018-05-05 11:11:53,852 - DEBUG - Epoch=4, iteration=1300
+2018-05-05 11:12:27,240 - DEBUG - Epoch=4, iteration=1400
+2018-05-05 11:13:00,598 - DEBUG - Epoch=4, iteration=1500
+2018-05-05 11:13:26,975 - INFO - Perplexity on training data after epoch 4: 61.44
+2018-05-05 11:14:05,623 - DEBUG - Epoch=5, iteration=100
+2018-05-05 11:14:39,038 - DEBUG - Epoch=5, iteration=200
+2018-05-05 11:15:12,413 - DEBUG - Epoch=5, iteration=300
+2018-05-05 11:15:45,821 - DEBUG - Epoch=5, iteration=400
+2018-05-05 11:16:19,244 - DEBUG - Epoch=5, iteration=500
+2018-05-05 11:16:52,611 - DEBUG - Epoch=5, iteration=600
+2018-05-05 11:17:25,993 - DEBUG - Epoch=5, iteration=700
+2018-05-05 11:17:59,381 - DEBUG - Epoch=5, iteration=800
+2018-05-05 11:18:32,764 - DEBUG - Epoch=5, iteration=900
+2018-05-05 11:19:06,181 - DEBUG - Epoch=5, iteration=1000
+2018-05-05 11:19:39,621 - DEBUG - Epoch=5, iteration=1100
+2018-05-05 11:20:13,060 - DEBUG - Epoch=5, iteration=1200
+2018-05-05 11:20:46,469 - DEBUG - Epoch=5, iteration=1300
+2018-05-05 11:21:19,896 - DEBUG - Epoch=5, iteration=1400
+2018-05-05 11:21:53,340 - DEBUG - Epoch=5, iteration=1500
+2018-05-05 11:22:19,751 - INFO - Perplexity on training data after epoch 5: 53.65
+2018-05-05 11:22:58,468 - DEBUG - Epoch=6, iteration=100
+2018-05-05 11:23:31,903 - DEBUG - Epoch=6, iteration=200
+2018-05-05 11:24:05,322 - DEBUG - Epoch=6, iteration=300
+2018-05-05 11:24:38,748 - DEBUG - Epoch=6, iteration=400
+2018-05-05 11:25:12,219 - DEBUG - Epoch=6, iteration=500
+2018-05-05 11:25:45,636 - DEBUG - Epoch=6, iteration=600
+2018-05-05 11:26:19,083 - DEBUG - Epoch=6, iteration=700
+2018-05-05 11:26:52,534 - DEBUG - Epoch=6, iteration=800
+2018-05-05 11:27:26,000 - DEBUG - Epoch=6, iteration=900
+2018-05-05 11:27:59,408 - DEBUG - Epoch=6, iteration=1000
+2018-05-05 11:28:32,821 - DEBUG - Epoch=6, iteration=1100
+2018-05-05 11:29:06,251 - DEBUG - Epoch=6, iteration=1200
+2018-05-05 11:29:39,684 - DEBUG - Epoch=6, iteration=1300
+2018-05-05 11:30:13,117 - DEBUG - Epoch=6, iteration=1400
+2018-05-05 11:30:46,571 - DEBUG - Epoch=6, iteration=1500
+2018-05-05 11:31:12,965 - INFO - Perplexity on training data after epoch 6: 48.01
+2018-05-05 11:31:51,686 - DEBUG - Epoch=7, iteration=100
+2018-05-05 11:32:25,126 - DEBUG - Epoch=7, iteration=200
+2018-05-05 11:32:58,568 - DEBUG - Epoch=7, iteration=300
+2018-05-05 11:33:31,977 - DEBUG - Epoch=7, iteration=400
+2018-05-05 11:34:05,389 - DEBUG - Epoch=7, iteration=500
+2018-05-05 11:34:38,801 - DEBUG - Epoch=7, iteration=600
+2018-05-05 11:35:12,197 - DEBUG - Epoch=7, iteration=700
+2018-05-05 11:35:45,618 - DEBUG - Epoch=7, iteration=800
+2018-05-05 11:36:19,061 - DEBUG - Epoch=7, iteration=900
+2018-05-05 11:36:52,430 - DEBUG - Epoch=7, iteration=1000
+2018-05-05 11:37:25,791 - DEBUG - Epoch=7, iteration=1100
+2018-05-05 11:37:59,182 - DEBUG - Epoch=7, iteration=1200
+2018-05-05 11:38:32,604 - DEBUG - Epoch=7, iteration=1300
+2018-05-05 11:39:06,017 - DEBUG - Epoch=7, iteration=1400
+2018-05-05 11:39:39,489 - DEBUG - Epoch=7, iteration=1500
+2018-05-05 11:40:05,925 - INFO - Perplexity on training data after epoch 7: 43.71
+2018-05-05 11:40:44,780 - DEBUG - Epoch=8, iteration=100
+2018-05-05 11:41:18,229 - DEBUG - Epoch=8, iteration=200
+2018-05-05 11:41:51,638 - DEBUG - Epoch=8, iteration=300
+2018-05-05 11:42:25,084 - DEBUG - Epoch=8, iteration=400
+2018-05-05 11:42:58,506 - DEBUG - Epoch=8, iteration=500
+2018-05-05 11:43:31,962 - DEBUG - Epoch=8, iteration=600
+2018-05-05 11:44:05,410 - DEBUG - Epoch=8, iteration=700
+2018-05-05 11:44:38,870 - DEBUG - Epoch=8, iteration=800
+2018-05-05 11:45:12,272 - DEBUG - Epoch=8, iteration=900
+2018-05-05 11:45:45,703 - DEBUG - Epoch=8, iteration=1000
+2018-05-05 11:46:19,136 - DEBUG - Epoch=8, iteration=1100
+2018-05-05 11:46:52,569 - DEBUG - Epoch=8, iteration=1200
+2018-05-05 11:47:25,972 - DEBUG - Epoch=8, iteration=1300
+2018-05-05 11:47:59,410 - DEBUG - Epoch=8, iteration=1400
+2018-05-05 11:48:32,797 - DEBUG - Epoch=8, iteration=1500
+2018-05-05 11:48:59,195 - INFO - Perplexity on training data after epoch 8: 40.30
+2018-05-05 11:49:37,943 - DEBUG - Epoch=9, iteration=100
+2018-05-05 11:50:11,402 - DEBUG - Epoch=9, iteration=200
+2018-05-05 11:50:44,821 - DEBUG - Epoch=9, iteration=300
+2018-05-05 11:51:18,264 - DEBUG - Epoch=9, iteration=400
+2018-05-05 11:51:51,688 - DEBUG - Epoch=9, iteration=500
+2018-05-05 11:52:25,093 - DEBUG - Epoch=9, iteration=600
+2018-05-05 11:52:58,529 - DEBUG - Epoch=9, iteration=700
+2018-05-05 11:53:31,967 - DEBUG - Epoch=9, iteration=800
+2018-05-05 11:54:05,370 - DEBUG - Epoch=9, iteration=900
+2018-05-05 11:54:38,799 - DEBUG - Epoch=9, iteration=1000
+2018-05-05 11:55:12,238 - DEBUG - Epoch=9, iteration=1100
+2018-05-05 11:55:45,685 - DEBUG - Epoch=9, iteration=1200
+2018-05-05 11:56:19,154 - DEBUG - Epoch=9, iteration=1300
+2018-05-05 11:56:52,586 - DEBUG - Epoch=9, iteration=1400
+2018-05-05 11:57:26,004 - DEBUG - Epoch=9, iteration=1500
+2018-05-05 11:57:52,432 - INFO - Perplexity on training data after epoch 9: 37.49
+2018-05-05 11:58:31,120 - DEBUG - Epoch=10, iteration=100
+2018-05-05 11:59:04,573 - DEBUG - Epoch=10, iteration=200
+2018-05-05 11:59:37,994 - DEBUG - Epoch=10, iteration=300
+2018-05-05 12:00:11,411 - DEBUG - Epoch=10, iteration=400
+2018-05-05 12:00:44,858 - DEBUG - Epoch=10, iteration=500
+2018-05-05 12:01:18,314 - DEBUG - Epoch=10, iteration=600
+2018-05-05 12:01:51,753 - DEBUG - Epoch=10, iteration=700
+2018-05-05 12:02:25,161 - DEBUG - Epoch=10, iteration=800
+2018-05-05 12:02:58,592 - DEBUG - Epoch=10, iteration=900
+2018-05-05 12:03:32,017 - DEBUG - Epoch=10, iteration=1000
+2018-05-05 12:04:05,439 - DEBUG - Epoch=10, iteration=1100
+2018-05-05 12:04:38,859 - DEBUG - Epoch=10, iteration=1200
+2018-05-05 12:05:12,267 - DEBUG - Epoch=10, iteration=1300
+2018-05-05 12:05:45,687 - DEBUG - Epoch=10, iteration=1400
+2018-05-05 12:06:19,105 - DEBUG - Epoch=10, iteration=1500
+2018-05-05 12:06:45,493 - INFO - Perplexity on training data after epoch 10: 35.16
+2018-05-05 12:07:24,228 - DEBUG - Epoch=11, iteration=100
+2018-05-05 12:07:57,667 - DEBUG - Epoch=11, iteration=200
+2018-05-05 12:08:31,059 - DEBUG - Epoch=11, iteration=300
+2018-05-05 12:09:04,443 - DEBUG - Epoch=11, iteration=400
+2018-05-05 12:09:37,908 - DEBUG - Epoch=11, iteration=500
+2018-05-05 12:10:11,322 - DEBUG - Epoch=11, iteration=600
+2018-05-05 12:10:44,749 - DEBUG - Epoch=11, iteration=700
+2018-05-05 12:11:18,181 - DEBUG - Epoch=11, iteration=800
+2018-05-05 12:11:51,622 - DEBUG - Epoch=11, iteration=900
+2018-05-05 12:12:25,077 - DEBUG - Epoch=11, iteration=1000
+2018-05-05 12:12:58,495 - DEBUG - Epoch=11, iteration=1100
+2018-05-05 12:13:31,897 - DEBUG - Epoch=11, iteration=1200
+2018-05-05 12:14:05,278 - DEBUG - Epoch=11, iteration=1300
+2018-05-05 12:14:38,706 - DEBUG - Epoch=11, iteration=1400
+2018-05-05 12:15:12,146 - DEBUG - Epoch=11, iteration=1500
+2018-05-05 12:15:38,549 - INFO - Perplexity on training data after epoch 11: 33.16
+2018-05-05 12:16:18,081 - DEBUG - Epoch=12, iteration=100
+2018-05-05 12:16:51,508 - DEBUG - Epoch=12, iteration=200
+2018-05-05 12:17:24,928 - DEBUG - Epoch=12, iteration=300
+2018-05-05 12:17:58,355 - DEBUG - Epoch=12, iteration=400
+2018-05-05 12:18:31,827 - DEBUG - Epoch=12, iteration=500
+2018-05-05 12:19:05,244 - DEBUG - Epoch=12, iteration=600
+2018-05-05 12:19:38,691 - DEBUG - Epoch=12, iteration=700
+2018-05-05 12:20:12,148 - DEBUG - Epoch=12, iteration=800
+2018-05-05 12:20:45,612 - DEBUG - Epoch=12, iteration=900
+2018-05-05 12:21:19,055 - DEBUG - Epoch=12, iteration=1000
+2018-05-05 12:21:52,534 - DEBUG - Epoch=12, iteration=1100
+2018-05-05 12:22:25,958 - DEBUG - Epoch=12, iteration=1200
+2018-05-05 12:22:59,442 - DEBUG - Epoch=12, iteration=1300
+2018-05-05 12:23:32,871 - DEBUG - Epoch=12, iteration=1400
+2018-05-05 12:24:06,345 - DEBUG - Epoch=12, iteration=1500
+2018-05-05 12:24:32,767 - INFO - Perplexity on training data after epoch 12: 31.43
+2018-05-05 12:25:11,405 - DEBUG - Epoch=13, iteration=100
+2018-05-05 12:25:44,846 - DEBUG - Epoch=13, iteration=200
+2018-05-05 12:26:18,298 - DEBUG - Epoch=13, iteration=300
+2018-05-05 12:26:51,742 - DEBUG - Epoch=13, iteration=400
+2018-05-05 12:27:25,201 - DEBUG - Epoch=13, iteration=500
+2018-05-05 12:27:58,607 - DEBUG - Epoch=13, iteration=600
+2018-05-05 12:28:32,016 - DEBUG - Epoch=13, iteration=700
+2018-05-05 12:29:05,452 - DEBUG - Epoch=13, iteration=800
+2018-05-05 12:29:38,861 - DEBUG - Epoch=13, iteration=900
+2018-05-05 12:30:12,308 - DEBUG - Epoch=13, iteration=1000
+2018-05-05 12:30:45,765 - DEBUG - Epoch=13, iteration=1100
+2018-05-05 12:31:19,229 - DEBUG - Epoch=13, iteration=1200
+2018-05-05 12:31:52,649 - DEBUG - Epoch=13, iteration=1300
+2018-05-05 12:32:26,044 - DEBUG - Epoch=13, iteration=1400
+2018-05-05 12:32:59,510 - DEBUG - Epoch=13, iteration=1500
+2018-05-05 12:33:25,889 - INFO - Perplexity on training data after epoch 13: 29.90
+2018-05-05 12:34:04,588 - DEBUG - Epoch=14, iteration=100
+2018-05-05 12:34:38,013 - DEBUG - Epoch=14, iteration=200
+2018-05-05 12:35:11,443 - DEBUG - Epoch=14, iteration=300
+2018-05-05 12:35:44,858 - DEBUG - Epoch=14, iteration=400
+2018-05-05 12:36:18,289 - DEBUG - Epoch=14, iteration=500
+2018-05-05 12:36:51,695 - DEBUG - Epoch=14, iteration=600
+2018-05-05 12:37:25,147 - DEBUG - Epoch=14, iteration=700
+2018-05-05 12:37:58,574 - DEBUG - Epoch=14, iteration=800
+2018-05-05 12:38:31,976 - DEBUG - Epoch=14, iteration=900
+2018-05-05 12:39:05,447 - DEBUG - Epoch=14, iteration=1000
+2018-05-05 12:39:38,895 - DEBUG - Epoch=14, iteration=1100
+2018-05-05 12:40:12,331 - DEBUG - Epoch=14, iteration=1200
+2018-05-05 12:40:45,766 - DEBUG - Epoch=14, iteration=1300
+2018-05-05 12:41:19,188 - DEBUG - Epoch=14, iteration=1400
+2018-05-05 12:41:52,605 - DEBUG - Epoch=14, iteration=1500
+2018-05-05 12:42:18,901 - INFO - Perplexity on training data after epoch 14: 28.53
+2018-05-05 12:42:57,615 - DEBUG - Epoch=15, iteration=100
+2018-05-05 12:43:31,077 - DEBUG - Epoch=15, iteration=200
+2018-05-05 12:44:04,499 - DEBUG - Epoch=15, iteration=300
+2018-05-05 12:44:37,919 - DEBUG - Epoch=15, iteration=400
+2018-05-05 12:45:11,344 - DEBUG - Epoch=15, iteration=500
+2018-05-05 12:45:44,764 - DEBUG - Epoch=15, iteration=600
+2018-05-05 12:46:18,202 - DEBUG - Epoch=15, iteration=700
+2018-05-05 12:46:51,612 - DEBUG - Epoch=15, iteration=800
+2018-05-05 12:47:25,010 - DEBUG - Epoch=15, iteration=900
+2018-05-05 12:47:58,387 - DEBUG - Epoch=15, iteration=1000
+2018-05-05 12:48:31,788 - DEBUG - Epoch=15, iteration=1100
+2018-05-05 12:49:05,219 - DEBUG - Epoch=15, iteration=1200
+2018-05-05 12:49:38,641 - DEBUG - Epoch=15, iteration=1300
+2018-05-05 12:50:12,076 - DEBUG - Epoch=15, iteration=1400
+2018-05-05 12:50:45,487 - DEBUG - Epoch=15, iteration=1500
+2018-05-05 12:51:11,885 - INFO - Perplexity on training data after epoch 15: 27.28
+2018-05-05 12:51:50,648 - DEBUG - Epoch=16, iteration=100
+2018-05-05 12:52:24,081 - DEBUG - Epoch=16, iteration=200
+2018-05-05 12:52:57,549 - DEBUG - Epoch=16, iteration=300
+2018-05-05 12:53:30,982 - DEBUG - Epoch=16, iteration=400
+2018-05-05 12:54:04,404 - DEBUG - Epoch=16, iteration=500
+2018-05-05 12:54:37,863 - DEBUG - Epoch=16, iteration=600
+2018-05-05 12:55:11,253 - DEBUG - Epoch=16, iteration=700
+2018-05-05 12:55:44,669 - DEBUG - Epoch=16, iteration=800
+2018-05-05 12:56:18,134 - DEBUG - Epoch=16, iteration=900
+2018-05-05 12:56:51,573 - DEBUG - Epoch=16, iteration=1000
+2018-05-05 12:57:25,005 - DEBUG - Epoch=16, iteration=1100
+2018-05-05 12:57:58,407 - DEBUG - Epoch=16, iteration=1200
+2018-05-05 12:58:31,851 - DEBUG - Epoch=16, iteration=1300
+2018-05-05 12:59:05,272 - DEBUG - Epoch=16, iteration=1400
+2018-05-05 12:59:38,677 - DEBUG - Epoch=16, iteration=1500
+2018-05-05 13:00:05,113 - INFO - Perplexity on training data after epoch 16: 26.13
+2018-05-05 13:00:43,942 - DEBUG - Epoch=17, iteration=100
+2018-05-05 13:01:17,412 - DEBUG - Epoch=17, iteration=200
+2018-05-05 13:01:50,867 - DEBUG - Epoch=17, iteration=300
+2018-05-05 13:02:24,282 - DEBUG - Epoch=17, iteration=400
+2018-05-05 13:02:57,721 - DEBUG - Epoch=17, iteration=500
+2018-05-05 13:03:31,129 - DEBUG - Epoch=17, iteration=600
+2018-05-05 13:04:04,568 - DEBUG - Epoch=17, iteration=700
+2018-05-05 13:04:37,982 - DEBUG - Epoch=17, iteration=800
+2018-05-05 13:05:11,424 - DEBUG - Epoch=17, iteration=900
+2018-05-05 13:05:44,880 - DEBUG - Epoch=17, iteration=1000
+2018-05-05 13:06:18,316 - DEBUG - Epoch=17, iteration=1100
+2018-05-05 13:06:51,772 - DEBUG - Epoch=17, iteration=1200
+2018-05-05 13:07:25,227 - DEBUG - Epoch=17, iteration=1300
+2018-05-05 13:07:58,667 - DEBUG - Epoch=17, iteration=1400
+2018-05-05 13:08:32,085 - DEBUG - Epoch=17, iteration=1500
+2018-05-05 13:08:58,508 - INFO - Perplexity on training data after epoch 17: 25.10
+2018-05-05 13:09:44,047 - DEBUG - Epoch=18, iteration=100
+2018-05-05 13:10:17,515 - DEBUG - Epoch=18, iteration=200
+2018-05-05 13:10:50,951 - DEBUG - Epoch=18, iteration=300
+2018-05-05 13:11:24,354 - DEBUG - Epoch=18, iteration=400
+2018-05-05 13:11:57,816 - DEBUG - Epoch=18, iteration=500
+2018-05-05 13:12:31,274 - DEBUG - Epoch=18, iteration=600
+2018-05-05 13:13:04,719 - DEBUG - Epoch=18, iteration=700
+2018-05-05 13:13:38,184 - DEBUG - Epoch=18, iteration=800
+2018-05-05 13:14:11,619 - DEBUG - Epoch=18, iteration=900
+2018-05-05 13:14:45,022 - DEBUG - Epoch=18, iteration=1000
+2018-05-05 13:15:18,447 - DEBUG - Epoch=18, iteration=1100
+2018-05-05 13:15:51,893 - DEBUG - Epoch=18, iteration=1200
+2018-05-05 13:16:25,331 - DEBUG - Epoch=18, iteration=1300
+2018-05-05 13:16:58,743 - DEBUG - Epoch=18, iteration=1400
+2018-05-05 13:17:32,121 - DEBUG - Epoch=18, iteration=1500
+2018-05-05 13:17:58,527 - INFO - Perplexity on training data after epoch 18: 24.12
+2018-05-05 13:18:37,286 - DEBUG - Epoch=19, iteration=100
+2018-05-05 13:19:10,718 - DEBUG - Epoch=19, iteration=200
+2018-05-05 13:19:44,146 - DEBUG - Epoch=19, iteration=300
+2018-05-05 13:20:17,593 - DEBUG - Epoch=19, iteration=400
+2018-05-05 13:20:51,053 - DEBUG - Epoch=19, iteration=500
+2018-05-05 13:21:24,492 - DEBUG - Epoch=19, iteration=600
+2018-05-05 13:21:57,909 - DEBUG - Epoch=19, iteration=700
+2018-05-05 13:22:31,328 - DEBUG - Epoch=19, iteration=800
+2018-05-05 13:23:04,791 - DEBUG - Epoch=19, iteration=900
+2018-05-05 13:23:38,251 - DEBUG - Epoch=19, iteration=1000
+2018-05-05 13:24:11,675 - DEBUG - Epoch=19, iteration=1100
+2018-05-05 13:24:45,090 - DEBUG - Epoch=19, iteration=1200
+2018-05-05 13:25:18,519 - DEBUG - Epoch=19, iteration=1300
+2018-05-05 13:25:51,962 - DEBUG - Epoch=19, iteration=1400
+2018-05-05 13:26:25,407 - DEBUG - Epoch=19, iteration=1500
+2018-05-05 13:26:51,818 - INFO - Perplexity on training data after epoch 19: 23.25
+2018-05-05 13:27:30,472 - DEBUG - Epoch=20, iteration=100
+2018-05-05 13:28:03,865 - DEBUG - Epoch=20, iteration=200
+2018-05-05 13:28:37,289 - DEBUG - Epoch=20, iteration=300
+2018-05-05 13:29:10,724 - DEBUG - Epoch=20, iteration=400
+2018-05-05 13:29:44,142 - DEBUG - Epoch=20, iteration=500
+2018-05-05 13:30:17,564 - DEBUG - Epoch=20, iteration=600
+2018-05-05 13:30:51,002 - DEBUG - Epoch=20, iteration=700
+2018-05-05 13:31:24,435 - DEBUG - Epoch=20, iteration=800
+2018-05-05 13:31:57,868 - DEBUG - Epoch=20, iteration=900
+2018-05-05 13:32:31,305 - DEBUG - Epoch=20, iteration=1000
+2018-05-05 13:33:04,759 - DEBUG - Epoch=20, iteration=1100
+2018-05-05 13:33:38,202 - DEBUG - Epoch=20, iteration=1200
+2018-05-05 13:34:11,609 - DEBUG - Epoch=20, iteration=1300
+2018-05-05 13:34:45,035 - DEBUG - Epoch=20, iteration=1400
+2018-05-05 13:35:18,483 - DEBUG - Epoch=20, iteration=1500
+2018-05-05 13:35:44,875 - INFO - Perplexity on training data after epoch 20: 22.38
