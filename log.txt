@@ -4,8 +4,18 @@ original romanesco
 2018-05-04 19:40:38,048 - INFO - Perplexity on training data after epoch 15: 27.15
 Perplexity: 42.15
 
-
-
 15 epochen
 original romanesco
 anderes preprocessing
+2018-05-04 22:39:57,906 - INFO - Perplexity on training data after epoch 15: 24.97
+Perplexity: 39.47
+
+20 epochen
+preprocessing quot
+2018-05-05 07:40:08,258 - INFO - Perplexity on training data after epoch 20: 19.74
+Perplexity: 39.44
+
+20 epochen
+preprocessing quot - 0.7 dropoutlayer
+2018-05-05 13:35:44,875 - INFO - Perplexity on training data after epoch 20: 22.38
+Perplexity: 40.67

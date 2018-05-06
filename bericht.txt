@@ -27,3 +27,5 @@ Preprocessing hat einen einfluss auf die Perplexität.
 Was ist Perplexität genau.
 
 Tensorboard verstehen scheint eine eigene Wissenschaft.
+
+Merge probleme in git verhindern indem immer zuerst gepullt und dann erst gepusht wird.
