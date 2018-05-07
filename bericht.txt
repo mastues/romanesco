@@ -1,5 +1,5 @@
-Martina Stüssi
-Valentina Vogel
+Martina Stüssi 14-820-195
+Valentina Vogel 16-708-919
 
 Stolpersteine:
 Code verstehen, den wir nicht selbst verfasst haben.
@@ -11,8 +11,6 @@ https://github.com/rit-public/HappyDB
 
 Hilfestellungen:
 das Internet.
-
-
 
 Wir haben damit begonnen einfach einmal zu trainieren, um ein Gefühl zu bekommen. Zuerst noch mit dem winzigen Trumptext, dann mit unserem Happy Moments Korpus (sehr grobes Preprocessing, unveränderter romanesco Code)
 
@@ -40,4 +38,7 @@ daher ist es sinnvoll, immer nur ein Aspekt (Preprocessing, Datenmenge, Anzahl E
 
 Tensorboard zu verstehen scheint eine eigene Wissenschaft. Glücklicherweise gibt es einige hilfreiche Blogposts.
 Wir sind nicht 100% sicher, ob wir das Dropout richtig implementiert haben, aber es sieht immerhin danach aus.
+
+
+Unsere Vokabelänge umfasst 10001 Wort, wir haben erst beim Anschauen von vocab.json bemerkt, dass wir beim Preprocessing das Absplitten von Satzzeichen aussenvorgelassenhaben was eine sehr einfache Massnahme im Preprocessing gewesen wäre.
 
