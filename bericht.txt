@@ -10,22 +10,34 @@ Datenset:
 https://github.com/rit-public/HappyDB
 
 Hilfestellungen:
+das Internet.
 
 
 
+Wir haben damit begonnen einfach einmal zu trainieren, um ein Gefühl zu bekommen. Zuerst noch mit dem winzigen Trumptext, dann mit unserem Happy Moments Korpus (sehr grobes Preprocessing, unveränderter romanesco Code)
 
-Wir haben damit begonnen einfach einmal zu trainieren um ein Gefühl zu bekommen.
+10 Epochen, 10'000 Zeilen, Perplexity auf Trainingsdaten = 131.06, Perplexity auf Testdaten = 106.90 (vielleicht habe ich das falsch aufgeschrieben, bessere Resultate auf den Testdaten sieht im Nachhinein sehr unglaubwürdig aus)
+20 Epochen, 10'000 Zeilen, P auf Trainingsdaten: 56.07, P auf Testdaten: 83.23 -> Overfitting
+10 Epochen, 50'000 Zeilen, P auf Trainingsdaten: 44.02, P auf Testdaten: 56.09
+10 Epochen auf ca. 100'000 Zeilen, P auf Trainingsdaten: 34.37, P auf Testdaten: 44.07
 
-Wie Prozess abbrechen, wenn mit nohup gestartet?
+Dann haben wir versucht, ein Dropout Layer zu implementieren, um Overfitting zu verhindern.
 
-Vor der git nutzung etwas mehr nachdenken, wäre es nicht angenehmer gewesen wenn eine von uns 
+
+Wie Prozess abbrechen, wenn mit nohup gestartet? -> nützliche Erkenntnis:
+$ ps -ef         # zeigt alle Prozesse an
+$ kill 27404    # kann gebraucht werden um prozess abzubrechen 
+
+Vor der git Nutzung etwas mehr nachdenken: es wäre angenehmer gewesen, wenn eine von uns 
 romanesco geforked hätte und wir dann zwei Branches erstellt hätten. > besseres Zusammenarbeiten
-hätte resultieren können.
+hätte resultieren können. Merge probleme in git verhindern indem immer zuerst gepullt und dann erst gepusht wird.
 
-Preprocessing hat einen einfluss auf die Perplexität.
+Preprocessing hat einen grossen Einfluss auf die Perplexität.
 
-Was ist Perplexität genau.
+Was ist Perplexität genau? Perplexität lässt sich irgendwie immer nur in einem direkten Vergleich von zwei Verfahren beurteilen
+daher ist es sinnvoll, immer nur ein Aspekt (Preprocessing, Datenmenge, Anzahl Epochen) zu ändern um zu sehen, ob das System besser wird
 
-Tensorboard verstehen scheint eine eigene Wissenschaft.
 
-Merge probleme in git verhindern indem immer zuerst gepullt und dann erst gepusht wird.
+Tensorboard zu verstehen scheint eine eigene Wissenschaft. Glücklicherweise gibt es einige hilfreiche Blogposts.
+Wir sind nicht 100% sicher, ob wir das Dropout richtig implementiert haben, aber es sieht immerhin danach aus.
+
